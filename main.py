@@ -57,5 +57,5 @@ while True:
             pygame.quit()
             sys.exit()
     for (i, card) in enumerate(hand_card):
-        DISPLAYSURF.blit(card, pygame.Rect(30 + i * 30, 20, 0, 0))
+        DISPLAYSURF.blit(card, pygame.Rect(30 + i * 30, 20, 96, 140))
     pygame.display.flip()
